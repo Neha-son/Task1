@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="Taks1.css" />
+</head>
+
+<body>
+    <h1 class="title">My Image Gallery</h1>
+
+    <!-- Filter Buttons -->
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="nature">Nature</button>
+        <button class="filter-btn" data-category="animals">Animals</button>
+        <button class="filter-btn" data-category="architecture">Architecture</button>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <div class="image" data-category="nature"><img src="https://picsum.photos/id/1018/600/400" alt="Nature 1" />
+        </div>
+        <div class="image" data-category="animals"><img src="https://picsum.photos/id/237/600/400" alt="Animal 1" />
+        </div>
+        <div class="image" data-category="architecture"><img src="https://picsum.photos/id/1015/600/400"
+                alt="Building 1" /></div>
+        <div class="image" data-category="nature"><img src="https://picsum.photos/id/1016/600/400" alt="Nature 2" />
+        </div>
+        <div class="image" data-category="animals"><img src="https://picsum.photos/id/1025/600/400" alt="Animal 2" />
+        </div>
+        <div class="image" data-category="architecture"><img src="https://picsum.photos/id/1023/600/400"
+                alt="Building 2" /></div>
+    </div>
+
+    <!-- Lightbox View -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="Lightbox" />
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <script src="Taks1.js"></script>
+</body>
+
+</html>
